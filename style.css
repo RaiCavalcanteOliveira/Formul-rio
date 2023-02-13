@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+fieldset{
+
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    height: 500px;
+    background-color: rgb(255, 217, 0);
+   
+}
+
+.englobainformacoes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: rgb(177, 5, 134);
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+
+   
+}
+
+#formulario{
+   
+}
+
+input{
+    width: 95%;
+    border-radius: 5px;
+    height: 20px;
+}
+
+body{
+    background-image: linear-gradient(90deg, #98b0f1 0%, #0080e9 35%, #63d3ff 100%);
+}
+
+button{
+    background-color: rgb(255, 217, 0);
+    height: 50px;
+    width: 20%;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) solid;
+    color: rgb(177, 5, 134);
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    background-color: rgb(177, 161, 21);
+}
+
+.botao{
+   display: flex;
+   justify-content: center;
+   padding-top: 2%;
+  
+  
+}
+
+
+@media print{
+    .print{
+        display: block;
+    }
+
+    #formulario{
+     
+    }
+    
+    input{
+       border: none;
+    }
+
+    fieldset{
+      border: none;
+    }
+    
+    button{
+        display: none;
+    }
+}
